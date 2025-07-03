@@ -48,7 +48,9 @@
                     <button type="submit" class="w-full text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
                         Iniciar Sesión
                     </button>
-
+                    <p class="text-sm font-light text-gray-400">
+                        ¿No tienes una cuenta? <a href="{{ route('register') }}" class="font-medium text-red-500 hover:underline">Regístrate aquí</a>
+                    </p>
 
                 </form>
             </div>
